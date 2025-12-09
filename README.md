@@ -1,16 +1,52 @@
-# React + Vite
+# Ethereal Elements 💄
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ethereal Elements** is a modern, elegant e-commerce application designed to provide a premium shopping experience for makeup enthusiasts. The platform allows users to explore a wide range of beauty products, filter by their favorite brands, and manage their shopping cart with ease.
 
-Currently, two official plugins are available:
+## ✨ Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project showcases a fully functional frontend for an e-commerce store. It features a responsive design, dynamic product searching and filtering, and a seamless checkout flow. The application consumes the [Makeup API](https://makeup-api.herokuapp.com/) to display real-world product data.
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Storefront**: captivating Landing page with featured products and hero section.
+- **Product Catalog**: Browse and filter products by brand, type, and price.
+- **Smart Search**: Real-time search functionality to find products instantly.
+- **Shopping Cart**: Interactive sliding sidebar cart with quantity management.
+- **Checkout Flow**: User-friendly checkout form with simulated order placement.
+- **Responsive UI**: Beautifully designed interface that works on all devices.
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was built using the following technologies:
+
+- **React.js**: Frontend framework for building the user interface.
+- **Vite**: Fast build tool and development server.
+- **TailwindCSS**: Utility-first CSS framework for styling.
+- **Context API**: For global state management (Cart).
+- **React Router**: For client-side routing and navigation.
+- **Axios**: For making HTTP requests to the makeup API.
+
+## 👩‍💻 Developed By
+
+**Amruta**
+
+## 📦 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AmrutaDeshpande21/ethereal-elements.git
+   ```
+
+2. **Install dependencies**
+   ```bash
+   cd ethereal-elements
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+---
+*Note: This project is for educational properties and uses a public API.*
